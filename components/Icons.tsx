@@ -1,4 +1,4 @@
-export function VercelSdkIcon() {
+export function AISdkIcon() {
 	return (
 		<svg
 			className="w-10 h-10"
@@ -255,6 +255,24 @@ export function McpIcon() {
 				strokeWidth="1.6"
 				strokeLinecap="round"
 			/>
+		</svg>
+	);
+}
+
+export function WhatsappIcon() {
+	return (
+		<svg
+			className="w-10 h-10"
+			viewBox="0 0 24 24"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.6" fill="none" />
+			<path
+				d="M16.59 14.53c-.25-.13-1.44-.71-1.66-.79-.22-.08-.38-.13-.54.13-.16.25-.62.79-.76.95-.14.16-.28.18-.52.06-.25-.13-1.01-.37-1.92-1.13-.71-.6-1.19-1.33-1.33-1.56-.14-.23-.01-.34.11-.46.11-.11.23-.28.34-.43.11-.15.18-.27.27-.45.09-.18.05-.33-.02-.45-.07-.12-.6-1.28-.82-1.75-.22-.46-.44-.39-.6-.4-.16-.01-.33-.01-.5-.01-.17 0-.39.07-.6.3-.21.23-.79.81-.79 1.98 0 1.17.81 2.3.92 2.46.11.16 1.59 2.56 3.86 3.49.54.21.96.35 1.29.45.54.18 1.04.15 1.43.09.44-.07 1.34-.57 1.53-1.13.19-.56.19-1.03.13-1.13-.06-.1-.21-.16-.44-.28z"
+				fill="currentColor"
+			/>
+			<circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.6" fill="none" />
 		</svg>
 	);
 }

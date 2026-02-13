@@ -1,7 +1,7 @@
 import { Feature } from "@/types/feature";
 
 const {
-  NEXT_PUBLIC_VERCEL_SDK_URL,
+  NEXT_PUBLIC_AI_SDK_URL,
   NEXT_PUBLIC_LOWCODENOCODE_URL,
   NEXT_PUBLIC_CODING_IDE_SDK_URL,
   NEXT_PUBLIC_EVALUATION_URL,
@@ -12,14 +12,14 @@ const {
 
 export const featureConfig: Feature[] = [
   {
-    title: "Vercel SDK",
+    title: "AI SDK",
     subtitle: "Developer Tools",
     items: [
-      "Seamless integration with Vercel platform",
+      "Seamless integration with AI platform",
       "Built‑in auth, storage, and edge primitives",
       "Optimized DX for serverless and AI apps",
     ],
-    href: NEXT_PUBLIC_VERCEL_SDK_URL,
+    href: NEXT_PUBLIC_AI_SDK_URL,
   },
   {
     title: "Lowcode-nocode",
@@ -53,7 +53,7 @@ export const featureConfig: Feature[] = [
     href: NEXT_PUBLIC_EVALUATION_URL,
   },
   {
-    title: "AiGW/proxy",
+    title: "Ai GW",
     items: [
       "Unified ingress for AI traffic",
       "Smart routing across models",
@@ -71,6 +71,16 @@ export const featureConfig: Feature[] = [
       "On-prem or VPC deployment options",
     ],
     href: NEXT_PUBLIC_PRIVATE_LLM_URL,
+  },
+  {
+    title: "MCP [server]",
+    items: [
+      "Central registry for MCP tools",
+      "Secure connection to enterprise systems",
+      "Multi-tenant session and state management",
+      "Policy-driven access and auditing",
+    ],
+    href: NEXT_PUBLIC_MCP_SERVER_URL,
   },
   {
     title: "MCP [server]",
